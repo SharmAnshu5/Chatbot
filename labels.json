@@ -1,0 +1,12 @@
+{
+    "Greet": 0,
+    "Ask Leave Policy": 1,
+    "Ask Benefits": 2,
+    "Ask Job Openings": 3,
+    "Ask Leave Balance": 4,
+    "Ask Working Hours": 5,
+    "File Complaint": 6,
+    "Ask Salary Date": 7,
+    "Ask Holiday List": 8,
+    "Exit Process": 9
+}

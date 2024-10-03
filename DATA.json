@@ -1,0 +1,192 @@
+[
+    {
+        "intent": "Greet",
+        "patterns": [
+            "Hello",
+            "Hi there",
+            "Hey!",
+            "Good morning",
+            "Good evening",
+            "Howdy",
+            "Greetings",
+            "Hey, how's it going?",
+            "Hi, how are you?",
+            "Hello, what's up?"
+        ],
+        "responses": [
+            "Hello! How can I assist you today?",
+            "Hi! What can I help you with?"
+        ]
+    },
+    {
+        "intent": "Ask for Help",
+        "patterns": [
+            "I need help",
+            "Can you assist me?",
+            "I have a question",
+            "Help me",
+            "I need support",
+            "Could you lend me a hand?",
+            "I’m stuck, can you help?",
+            "I require assistance",
+            "I need guidance",
+            "I could use some help"
+        ],
+        "responses": [
+            "Of course! What do you need help with?",
+            "I'm here to assist! Please let me know your question."
+        ]
+    },
+    {
+        "intent": "Request Information",
+        "patterns": [
+            "Tell me about your services",
+            "What do you offer?",
+            "Can you explain your features?",
+            "What are your services?",
+            "What can you do?",
+            "What do you provide?",
+            "Can you tell me more about your offerings?",
+            "What kind of help do you offer?",
+            "Describe your services to me",
+            "What can I expect from you?"
+        ],
+        "responses": [
+            "Sure! We offer a range of services including [service 1], [service 2], and [service 3]. Which one are you interested in?",
+            "We provide various services. Would you like to know more about a specific one?"
+        ]
+    },
+    {
+        "intent": "Book an Appointment",
+        "patterns": [
+            "I want to book an appointment",
+            "Schedule a meeting for me",
+            "Can I make an appointment?",
+            "I'd like to set up a time",
+            "Book a slot for me",
+            "I need to schedule a meeting",
+            "I want to arrange a consultation",
+            "Can we schedule a time to meet?",
+            "Can you book an appointment?",
+            "Help me set up an appointment"
+        ],
+        "responses": [
+            "Absolutely! What date and time works best for you?",
+            "Sure! When would you like to schedule your appointment?"
+        ]
+    },
+    {
+        "intent": "Cancel an Appointment",
+        "patterns": [
+            "I need to cancel my appointment",
+            "Can you help me cancel?",
+            "I want to cancel",
+            "Cancel my appointment",
+            "I can't make it",
+            "I need to cancel the booking",
+            "I have to cancel the meeting",
+            "Can you help me cancel the schedule?",
+            "I can’t attend, please cancel",
+            "Please cancel my reservation"
+        ],
+        "responses": [
+            "I can help with that. Please provide me with the details of the appointment you’d like to cancel.",
+            "Sure! What is the appointment you wish to cancel?"
+        ]
+    },
+    {
+        "intent": "Provide Feedback",
+        "patterns": [
+            "I want to give feedback",
+            "Here’s my feedback",
+            "I have a suggestion",
+            "I want to share my thoughts",
+            "Feedback for you",
+            "I have something to say",
+            "Can I provide feedback?",
+            "I’d like to offer some feedback",
+            "I want to give my opinion",
+            "Here’s what I think"
+        ],
+        "responses": [
+            "I’d love to hear your feedback! Please share your thoughts.",
+            "Your feedback is important to us. Please let us know."
+        ]
+    },
+    {
+        "intent": "Closing",
+        "patterns": [
+            "Thank you",
+            "Goodbye",
+            "See you later",
+            "Thanks for your help",
+            "I appreciate it",
+            "Thanks a lot",
+            "I’m done, goodbye",
+            "Thanks, that’s all",
+            "Farewell",
+            "Bye, talk to you later"
+        ],
+        "responses": [
+            "You're welcome! Have a great day! If you need anything else, feel free to ask.",
+            "Thank you! Have a wonderful day!"
+        ]
+    },
+    {
+        "intent": "FAQs",
+        "patterns": [
+            "What are your hours?",
+            "Where are you located?",
+            "Do you have a refund policy?",
+            "What is your contact information?",
+            "How can I reach you?",
+            "What time do you open?",
+            "What are your business hours?",
+            "Where is your office?",
+            "How do I contact support?",
+            "What’s your phone number?"
+        ],
+        "responses": [
+            "Our hours are [insert hours], and we are located at [insert location]. Would you like to know more?",
+            "We are open from [insert hours]. You can reach us at [contact information]."
+        ]
+    },
+    {
+        "intent": "Technical Support",
+        "patterns": [
+            "I’m having technical issues",
+            "Can you help me with a problem?",
+            "I need support",
+            "Technical assistance needed",
+            "I'm facing an issue",
+            "My system isn’t working",
+            "I have a technical problem",
+            "Can you troubleshoot this for me?",
+            "I’m having trouble with your product",
+            "Help me fix this issue"
+        ],
+        "responses": [
+            "I’m here to help! Please describe the issue you're experiencing.",
+            "Let me know the details of the technical issue, and I'll assist you."
+        ]
+    },
+    {
+        "intent": "Complaints",
+        "patterns": [
+            "I have a complaint",
+            "I’m not satisfied with",
+            "This is unacceptable",
+            "I want to report an issue",
+            "I have a concern",
+            "I need to complain",
+            "I’m unhappy with your service",
+            "This didn’t meet my expectations",
+            "I have a problem",
+            "There’s something wrong"
+        ],
+        "responses": [
+            "I’m sorry to hear that. Please tell me more about your experience so I can assist you better.",
+            "I apologize for the inconvenience. Let’s resolve this together."
+        ]
+    }
+]

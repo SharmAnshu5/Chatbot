@@ -1,0 +1,152 @@
+[
+    {
+        "intent": "Greet",
+        "patterns": [
+            "Hello",
+            "Hi",
+            "Good morning",
+            "Good evening",
+            "Hey"
+        ],
+        "responses": [
+            "Hello! How can I assist you today?",
+            "Hi there! What HR-related query can I help you with?",
+            "Good day! How may I assist you?"
+        ]
+    },
+    {
+        "intent": "Ask Leave Policy",
+        "patterns": [
+            "What is the leave policy?",
+            "How many leaves do we get?",
+            "Can you explain the leave policy?",
+            "Tell me about the leave structure",
+            "How many paid leaves do I have?"
+        ],
+        "responses": [
+            "Our leave policy provides 24 paid leaves annually, along with 12 sick leaves. Would you like more details?",
+            "You are entitled to 24 paid leaves and 12 sick leaves per year. Is there anything else you'd like to know?",
+            "We offer 24 paid leaves a year. Additional details are available in the employee handbook."
+        ]
+    },
+    {
+        "intent": "Ask Benefits",
+        "patterns": [
+            "What are the employee benefits?",
+            "Tell me about the health insurance",
+            "Do we get health benefits?",
+            "What benefits does the company offer?",
+            "Can you explain the employee perks?"
+        ],
+        "responses": [
+            "We offer a comprehensive benefits package that includes health insurance, retirement plans, and wellness programs. Do you want specifics?",
+            "Our benefits include health insurance, retirement plans, and flexible working hours. Need more details?",
+            "We provide medical insurance, gym memberships, and flexible leave options. Feel free to ask for more info."
+        ]
+    },
+    {
+        "intent": "Ask Job Openings",
+        "patterns": [
+            "Are there any job openings?",
+            "Is the company hiring?",
+            "Do you have open positions?",
+            "Tell me about current job vacancies",
+            "What are the job opportunities?"
+        ],
+        "responses": [
+            "Yes, we are currently hiring for several roles. You can find the job listings on our website.",
+            "We have a few open positions. Please visit our careers page for more information.",
+            "We're actively hiring! You can view all job openings on our careers portal."
+        ]
+    },
+    {
+        "intent": "Ask Leave Balance",
+        "patterns": [
+            "How many leaves do I have left?",
+            "What is my leave balance?",
+            "Can you tell me my remaining leaves?",
+            "How many paid leaves are left for me?",
+            "Check my leave balance"
+        ],
+        "responses": [
+            "You can check your leave balance in the employee portal, or I can guide you on how to access it.",
+            "Your leave balance is available in the HR portal under 'Leave Status'. Would you like help accessing it?",
+            "Please visit the HR system to check your remaining leaves or contact your manager for details."
+        ]
+    },
+    {
+        "intent": "Ask Working Hours",
+        "patterns": [
+            "What are the working hours?",
+            "Can you tell me the office timings?",
+            "What time does the office open?",
+            "What is the work schedule?",
+            "When are we supposed to start and finish work?"
+        ],
+        "responses": [
+            "Our official working hours are from 9 AM to 6 PM, Monday to Friday.",
+            "We follow a 9 AM to 6 PM schedule, but flexible working hours are available. Would you like to know more?",
+            "The standard work hours are 9 AM to 6 PM, but we offer some flexibility. You can check with your manager for more details."
+        ]
+    },
+    {
+        "intent": "File Complaint",
+        "patterns": [
+            "I want to file a complaint",
+            "How can I report an issue?",
+            "I have a concern",
+            "Where can I lodge a complaint?",
+            "How do I raise a complaint?"
+        ],
+        "responses": [
+            "You can file a complaint through our HR portal under 'Employee Grievances', or I can guide you through the process.",
+            "Please visit the complaints section in our HR system to report any issues, or contact your HR representative directly.",
+            "Complaints can be filed in the HR portal. Let me know if you need further assistance."
+        ]
+    },
+    {
+        "intent": "Ask Salary Date",
+        "patterns": [
+            "When is the salary credited?",
+            "What is the salary date?",
+            "On which day do we receive the salary?",
+            "When do we get paid?",
+            "Can you tell me the salary credit date?"
+        ],
+        "responses": [
+            "Salaries are credited on the last working day of each month.",
+            "Your salary will be credited by the end of the month. Would you like to know more about the salary structure?",
+            "Employees are paid on the last working day of the month. Let me know if you have further questions."
+        ]
+    },
+    {
+        "intent": "Ask Holiday List",
+        "patterns": [
+            "Can you share the holiday list?",
+            "What are the holidays this year?",
+            "Tell me about the upcoming holidays",
+            "How many holidays are there this year?",
+            "Is there a list of holidays?"
+        ],
+        "responses": [
+            "The holiday list is available on the HR portal. You can access it under the 'Holiday Calendar' section.",
+            "We have 12 holidays this year. You can view the full list in the employee portal.",
+            "Please check the holiday list in the HR system or I can email it to you."
+        ]
+    },
+    {
+        "intent": "Exit Process",
+        "patterns": [
+            "What is the exit process?",
+            "How do I resign?",
+            "Tell me about the resignation procedure",
+            "What steps do I need to follow to resign?",
+            "Can you explain the exit formalities?"
+        ],
+        "responses": [
+            "The exit process involves submitting your resignation through the HR portal, followed by a notice period. Let me know if you need further details.",
+            "To initiate the exit process, submit your resignation via email or the HR portal, and your manager will follow up with next steps.",
+            "Resignations can be submitted online. Make sure to complete all pending tasks and clearances during the notice period."
+        ]
+    }
+]
