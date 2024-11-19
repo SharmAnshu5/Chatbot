@@ -1,0 +1,40 @@
+
+---
+
+### **`app.py` (Backend Source Code)**
+
+```python
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+# Define HR-related responses for common queries
+hr_responses = {
+    "how many days of vacation do i have": "You are entitled to 15 days of paid vacation per year.",
+    "what is the working hours": "Our office working hours are from 9:00 AM to 6:00 PM, Monday to Friday.",
+    "how do i apply for leave": "To apply for leave, please fill out the leave application form in the HR portal.",
+    "when is the salary disbursed": "Salaries are disbursed on the 1st of every month.",
+}
+
+# Define a basic function to process the query and match it with HR responses
+def get_hr_response(query):
+    query = query.lower()
+    for key in hr_responses:
+        if key in query:
+            return hr_responses[key]
+    return "Sorry, I didn't understand your question. Please ask something else."
+
+@app.route('/query', methods=['POST'])
+def query():
+    data = request.get_json()
+    
+    if 'query' not in data:
+        return jsonify({"error": "No query provided."}), 400
+    
+    user_query = data['query']
+    response = get_hr_response(user_query)
+    
+    return jsonify({"response": response})
+
+if __name__ == '__main__':
+    app.run(debug=True)
